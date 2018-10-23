@@ -1,0 +1,14 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(-135deg, rgba(50,50,50,0.6) 50%, rgba(50,50,50,0.6) 50%), url(../../images/shanghai.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner-content {
+  color: white
+}

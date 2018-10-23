@@ -1,0 +1,54 @@
+.message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 2px;
+}
+.message .name {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.message .date {
+  font-weight: lighter;
+  color: rgba(10, 10, 10, 0.8);
+}
+
+.message-name {
+  margin: 10px;
+}
+
+
+
+.message-infos {
+  flex-grow: 1;
+  margin: 10px;
+}
+.message-infos .title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.message-infos .description {
+  font-weight: lighter;
+  font-size: 10px;
+  color: rgba(50,50,50,0.6);
+}
+
+.message-status {
+  margin: 10px;
+}
+
+.message-status .status {
+  margin-bottom: 0;
+  color: orange;
+  font-weight: bolder;
+}
+.message-status .price {
+  margin-top: 0;
+}
+
+
+.message-avatar {
+  margin: 10px;
+}
